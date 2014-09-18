@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails', '~>2.0.1'
 gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
@@ -27,7 +27,6 @@ group :test do
   gem 'factory_girl_rails', '1.4.0'
   gem 'cucumber-rails', '1.2.1', require: false
   gem 'database_cleaner', '0.7.0'
-  gem 'rb-fsevent', '0.4.3.1', :require => false
   gem 'growl', '1.0.3'
   gem 'guard-spork', '0.3.2'  
   gem 'spork', '0.9.0'
