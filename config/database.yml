@@ -26,3 +26,9 @@ production:
 
 cucumber:
   <<: *test
+
+remote_test: &remote_test
+  adapter: sqlite3
+  database: db/remote_test_<%=ENV['TEST_ENV_NUMBER']%>
+  pool: 5
+  timeout: 5000
